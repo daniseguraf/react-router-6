@@ -357,7 +357,6 @@ i[class*='van-type-'] {
 .host-nav a:hover {
   color: #161616;
   text-decoration: underline;
-  font-weight: 600;
 }
 
 .host-van-link-wrapper {
@@ -453,7 +452,6 @@ i[class*='van-type-'] {
 .host-van-detail-nav a:hover {
   color: #161616;
   text-decoration: underline;
-  font-weight: 700;
 }
 
 .host-van-detail-info > h4 {

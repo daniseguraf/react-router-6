@@ -8,39 +8,38 @@ const activeStyle = {
 
 const HostLayout = () => {
   return (
-    <div>
-      <h1>HostLayout</h1>
+    <>
       <nav className="host-nav">
         <NavLink
-          to="/host"
+          to="."
           style={({ isActive }) => (isActive ? activeStyle : null)}
           end
         >
           Dashboard
         </NavLink>
         <NavLink
-          to="/host/income"
+          to="income"
           style={({ isActive }) => (isActive ? activeStyle : null)}
         >
           Income
         </NavLink>
         <NavLink
-          to="/host/vans"
+          to="vans"
           style={({ isActive }) => (isActive ? activeStyle : null)}
         >
           Vans
         </NavLink>
         <NavLink
-          to="/host/review"
+          to="reviews"
           style={({ isActive }) => (isActive ? activeStyle : null)}
         >
-          Review
+          Reviews
         </NavLink>
       </nav>
+
       <Outlet />
-    </div>
+    </>
   );
 };
 
 export default HostLayout;
-4165.55;
